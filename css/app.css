@@ -1,0 +1,72 @@
+.barndoorbuttonizerBlogWidgetWrap{}
+.barndoorbuttonizerStandalonePageWidgetWrap{}
+.barndoorbuttonizerWidgetFrame{}
+
+
+
+.clearfix:before,
+.clearfix:after {
+  content: ".";    
+  display: block;    
+  height: 0;    
+  overflow: hidden;	
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE < 8 */
+
+#barndoorbuttonizerDrop {
+  min-height: 150px;
+  width: 250px;
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 10px;
+}
+.ruler img{display:block;}
+.ruler{background:#eee;padding:0;margin:0;position:relative;}
+.pointer{position:absolute; background:yellow;width:1px;height:100%;}
+.pointerInner{position:absolute; background:green;width:1px;height:50%;}
+
+
+.demo {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  float:left;
+  color:#666;
+}
+
+.demoContainer{padding:0 0 20px 0;}
+/*
+.backButton {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  font-size: .72rem;
+  top: 1rem;
+  left: 1.5rem;
+  font-weight: bold;
+}
+
+.backButton:after {
+  border-width: 30px 6px 0px 14px;
+  content: '';
+  height: 0px;
+  display: block;
+  z-index: -1;
+  margin: -25px -11px 0 -18px;
+}
+.backButton:after {
+    -webkit-border-image: url("../img/assets/back_button.png") 30 6 0 12 repeat;
+  }
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+  .backButton:after {
+    -webkit-border-image: url("../img/assets/back_button@2x.png") 60 12 0 24 repeat;
+  }
+}
+
+
+*/
+
+
