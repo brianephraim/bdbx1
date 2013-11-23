@@ -6,11 +6,6 @@
 	  };
 	}
 
-	if (typeof BARNDOORBUTTONIZER === 'undefined') {
-	  var global = (function(){return this;})();
-	}
-
-
 	var makeBarndoorbuttonizerObject = function($){
 		console.log('makeBarndoorbuttonizerObject')
 		var barndoorbuttonizer = function(options){
@@ -21,8 +16,9 @@
 			      analyzeImage($('.cloud')[0])
 			  })
 			});
+			console.log('asdf')
 			if(window.FileReader) { 
-    
+    			
     			function analyzeImage(img){
 			        var $body = $('.barndoorbuttonizerWidgetFrame');
 			        var $img = $(img);
